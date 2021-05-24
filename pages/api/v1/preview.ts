@@ -5,7 +5,7 @@ import { collections } from '@lib/collections'
 
 /**
  *
- * Currently only posts are implemented for preview
+ * Currently only posts are implemented for preview here
  *
  */
 
