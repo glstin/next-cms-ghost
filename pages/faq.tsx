@@ -36,7 +36,7 @@ export default function Custom404({ posts, settings, bodyClass }: Custom404Props
       <div className="inner">
         <section className="faq">
           <h1 className="faq">FAQ</h1>
-          <p className="error-description">{text(`FAQ`)}</p>
+          <h2>HOW DO I SUBMIT?</h2>
           <Link href="/" ><a className="error-link">{text(`GOTO_FRONT_PAGE`)} →</a></Link>
         </section>
 
