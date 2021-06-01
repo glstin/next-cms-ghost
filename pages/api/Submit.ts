@@ -21,17 +21,3 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   }
 }
-
-interface Custom404Props {
-  posts: GhostPostsOrPages
-  settings: GhostSettings
-  bodyClass: string
-}
-
-export default function Custom404({ posts, settings, bodyClass }: Custom404Props) {
-  const text = get(useLang())
-
-  return (
-   
-  )
-}
